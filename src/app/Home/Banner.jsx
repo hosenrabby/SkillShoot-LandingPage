@@ -7,7 +7,7 @@ import { FaTwitter, FaDiscord } from "react-icons/fa";
 const Banner = () => {
     return (
         <>
-            <div className="bg-[#286054] -mt-22 min-h-[700px] pb-10">
+            <div className="bg-[#286054] -mt-22 min-h-[700px] pb-10 md:pb-0">
                 <div className=" flex md:flex-row justify-between gap-5 pt-30 w-10/12 mx-auto relative">
                     <div className='absolute right-[10%] top-[32%] md:left-[15%] md:top-[30%]'>
                         <img src="/bannerUnderline.png" className="w-36" />

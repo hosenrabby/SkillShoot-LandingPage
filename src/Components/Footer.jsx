@@ -51,7 +51,7 @@ const Footer = () => {
                     </div>
 
                     <div className="pe-4 lg:flex">
-                        <ul className="menu-vertical space-y-4 md:menu-horizontal space-x-4 md:space-x-0">
+                        <ul className="menu-vertical space-y-4 md:menu-horizontal space-x-4">
                             {links}
                         </ul>
                     </div>
