@@ -1,7 +1,9 @@
+'use client'
 import React from 'react';
 import Banner from './Home/Banner';
 import Link from 'next/link';
 import Image from 'next/image';
+import PopularCourses from './Home/PopularCourses';
 
 const page = () => {
   return (
@@ -51,7 +53,7 @@ const page = () => {
             </div>
             <div className='mt-8 flex flex-col md:flex-row justify-center items-center md:justify-start gap-4'>
               <Link href={'/'}>
-                <button className={`flex items-center gap-4 py-4 px-8 transition rounded-md font-semibold text-white bg-[#286054] border border-[#286054] cursor-pointer hover:bg-[#194e43]`}>
+                <button className={`py-4 px-8 transition rounded-md font-semibold text-white bg-[#286054] border border-[#286054] cursor-pointer hover:bg-[#194e43]`}>
                   Subscribe Course
                 </button>
               </Link>
@@ -135,6 +137,10 @@ const page = () => {
           </div>
 
         </div>
+      </section>
+
+      <section className='mt-12 md:mt-40 w-full md:w-10/12 mx-auto'>
+        <PopularCourses></PopularCourses>
       </section>
     </div>
   );
