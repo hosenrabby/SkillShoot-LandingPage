@@ -7,7 +7,7 @@ import { FaTwitter, FaDiscord } from "react-icons/fa";
 const Banner = () => {
     return (
         <>
-            <div className="bg-[#286054] -mt-22 min-h-[700px]">
+            <div className="bg-[#286054] -mt-22 min-h-[700px] pb-10">
                 <div className=" flex md:flex-row justify-between gap-5 pt-30 w-10/12 mx-auto relative">
                     <div className='absolute right-[10%] top-[32%] md:left-[15%] md:top-[30%]'>
                         <img src="/bannerUnderline.png" className="w-36" />
@@ -18,7 +18,7 @@ const Banner = () => {
                     <div className='absolute -left-[7%] top-[20%] md:left-[68%] md:top-[30%]'>
                         <img src="/bannerPan.png" className="w-12 md:w-16" />
                     </div>
-                    <div className='absolute -right-[5%] -bottom-[5%] md:right-[5%] md:top-[42%]'>
+                    <div className='absolute -right-[5%] -bottom-[2%] md:right-[5%] md:top-[42%]'>
                         <img src="/bannerPlayBtn.png" className="w-12 md:w-16" />
                     </div>
                     <div className="absolute left-[4%] bottom-[4%] md:left-auto md:right-[2%] md:top-[81%]">

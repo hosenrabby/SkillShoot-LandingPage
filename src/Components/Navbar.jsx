@@ -41,7 +41,7 @@ const Navbar = () => {
                     <div className="navbar-start">
                         <div>
                             <Link className='flex items-center gap-2' href={'/'}>
-                                <p className={`noto-sans font-bold text-3xl md:inline ${isScrolled ? 'text-gray-600' : 'text-white'}`}>Skill<span className='font-bold text-[#CB8461]'> Shoot</span></p>
+                                <p className={`noto-sans font-bold text-2xl md:text-3xl md:inline ${isScrolled ? 'text-gray-600' : 'text-white'}`}>Skill<span className='font-bold text-[#CB8461]'> Shoot</span></p>
                             </Link>
                         </div>
                     </div>
