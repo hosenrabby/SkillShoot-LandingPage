@@ -23,23 +23,23 @@ const courses = [
     },
     {
         id: 2,
-        title: "Basics of learning team management",
-        teacher: "Jone Owel",
-        role: "IT Manager",
-        participants: 120,
-        price: 120,
+        title: "Learn basic database structure and algorithom",
+        teacher: "Roynaldo Jr",
+        role: "Data Science",
+        participants: 55,
+        price: 180,
         videos: 25,
-        img: "/slide1.png",
+        img: "/slide2.png",
     },
     {
         id: 3,
-        title: "Basics of learning team management",
-        teacher: "Jone Owel",
-        role: "IT Manager",
-        participants: 120,
-        price: 120,
-        videos: 25,
-        img: "/slide1.png",
+        title: "Create dynamic website with basic php",
+        teacher: "Markus Low",
+        role: "Programer",
+        participants: 98,
+        price: 135,
+        videos: 20,
+        img: "/slide3.png",
     },
     {
         id: 4,
@@ -53,13 +53,13 @@ const courses = [
     },
     {
         id: 5,
-        title: "Basics of learning team management",
-        teacher: "Jone Owel",
-        role: "IT Manager",
-        participants: 120,
-        price: 120,
-        videos: 25,
-        img: "/slide1.png",
+        title: "Create dynamic website with basic php",
+        teacher: "Markus Low",
+        role: "Programer",
+        participants: 98,
+        price: 135,
+        videos: 20,
+        img: "/slide3.png",
     },
 ];
 export default function PopularCourses() {
@@ -78,7 +78,7 @@ export default function PopularCourses() {
             >
                 {
                     courses.map(data =>
-                        <SwiperSlide>
+                        <SwiperSlide key={data.id}>
                             <div className="card bg-base-100 w-10/12 mx-auto shadow-sm rounded-2xl">
                                 <figure className='relative'>
                                     <div className='absolute right-[0%] top-[0%] md:left-[41%] md:top-[40%]'>

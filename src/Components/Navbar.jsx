@@ -17,19 +17,19 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
     const links = <>
-        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition  ${isScrolled && 'text-gray-500'}`}>
+        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition  ${isScrolled && 'text-white md:text-gray-500'}`}>
             <Link href={'/'}>Home</Link>
         </li>
-        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition ${isScrolled && 'text-gray-500'}`}>
+        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition ${isScrolled && 'text-white md:text-gray-500'}`}>
             <Link href={'/'}>Course</Link>
         </li>
-        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition ${isScrolled && 'text-gray-500'}`}>
+        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition ${isScrolled && 'text-white md:text-gray-500'}`}>
             <Link href={'/'}>Subscribe</Link>
         </li>
-        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition ${isScrolled && 'text-gray-500'}`}>
+        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition ${isScrolled && 'text-white md:text-gray-500'}`}>
             <Link href={'/'}>About</Link>
         </li>
-        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition ${isScrolled && 'text-gray-500'}`}>
+        <li className={`text-xl text-gray-100 hover:text-[#CB8461] hover:scale-105 transition ${isScrolled && 'text-white md:text-gray-500'}`}>
             <Link href={'/'}>Testimoni</Link>
         </li>
     </>
