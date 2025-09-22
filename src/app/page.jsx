@@ -139,8 +139,27 @@ const page = () => {
         </div>
       </section>
 
-      <section className='mt-12 md:mt-40 w-full md:w-10/12 mx-auto'>
-        <PopularCourses></PopularCourses>
+      <section className='mt-12 md:mt-40 bg-[#286054] relative'>
+        <div className='absolute left-[3%] top-[4%] md:left-[18%] md:top-[14%]'>
+          <img src="/squarBox2.png" className="w-12" />
+        </div>
+        <div className='absolute right-[7%] top-[5%]'>
+          <img src="/circle.png" className="w-8" />
+        </div>
+
+        <div className='w-full md:w-10/12 mx-auto'>
+          <h1 className='text-center text-2xl md:text-4xl text-white font-semibold mb-8 pt-20'>Popular courses of the week</h1>
+          <p className='mt-4 mb-6 px-4 md:px-72 text-center text-sm md:text-lg text-gray-300 leading-8'>List of the most popular lists that are often studied by our members Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, blanditiis.</p>
+          <div className='relative'>
+            <div className='absolute left-[2%] top-[36%] md:left-[1%] md:top-[41%] bg-gray-200 rounded-full hover:bg-[#286054] z-50 cursor-pointer'>
+              <img src="/slideArrow.png" className="w-12 p-1" />
+            </div>
+            <div className='absolute right-[1%] top-[36%] md:right-[1%] md:top-[41%] bg-gray-200 rounded-full hover:bg-[#286054] z-50 rotate-180 cursor-pointer'>
+              <img src="/slideArrow.png" className="w-12 p-1" />
+            </div>
+            <PopularCourses></PopularCourses>
+          </div>
+        </div>
       </section>
     </div>
   );
