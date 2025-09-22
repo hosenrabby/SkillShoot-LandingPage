@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
@@ -33,4 +33,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
+# Skill Shoot - Landing Page
+
+A modern and responsive **landing page** built with **Next.js**, styled using **Tailwind CSS** and **DaisyUI**, with interactive sliders powered by **Swiper.js**, and icons from **React Icons**.  
+
+This project is designed as a professional learning platform landing page showcasing courses, testimonials, and subscription plans.
+
+---
+
+## 🚀 Tech Stack
+
+- [Next.js](https://nextjs.org/) – React framework for server-side rendering and static site generation  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework  
+- [DaisyUI](https://daisyui.com/) – Tailwind CSS component library  
+- [Swiper.js](https://swiperjs.com/react) – Modern touch slider/carousel  
+- [React Icons](https://react-icons.github.io/react-icons/) – Popular icon library for React  
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/skill-shoot.git
+   cd skill-shoot
