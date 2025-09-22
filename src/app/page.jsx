@@ -32,7 +32,7 @@ const page = () => {
             <img src="/victorCircleRC.png" className="w-16" />
           </div>
           <div className='absolute left-0 top-0 md:left-0 md:top-0'>
-            <img src="/victorCirclelc.png" className="w-16" />
+            <img src="/victorCircleLC.png" className="w-16" />
           </div>
           <div className='absolute hidden md:block left-[60%] top-[26%]'>
             <img src="/squarBox1.png" className="w-12" />
@@ -61,7 +61,7 @@ const page = () => {
             </div>
           </div>
           <div className='-mt-[140px] w-7/19 ms-auto hidden md:block'>
-            <Image src="/childBoy.png" className="" width={300} height={300} />
+            <Image src="/childBoy.png" alt='childBoy' className="" width={300} height={300} />
           </div>
         </div>
       </section>
@@ -174,7 +174,7 @@ const page = () => {
             <img src="/bannerPlayBtn.png" className="w-14" />
           </div>
           <div className="absolute left-[4%] bottom-[4%] md:left-[0%] md:top-[54%]">
-            <img src="/bannerclnder.png" className="w-14" />
+            <img src="/bannerClnder.png" className="w-14" />
           </div>
           <div className='ps-10 bg-[url(/halfCircle.png)] bg-bottom bg-no-repeat'>
             <img src="/person.png" alt="" />
@@ -182,7 +182,7 @@ const page = () => {
         </div>
         <div className='w-full md:w-6/12 relative'>
           <div className='absolute right-[32%] top-[7%] md:left-[17%] md:top-[8%]'>
-            <img src="/bannerUnderline.png" className="w-36 md:w-40" />
+            <img src="/BannerUnderline.png" className="w-36 md:w-40" />
           </div>
 
           <h1 className='text-3xl md:text-4xl font-bold mb-8'>Let us <span className='text-[#286054]'>Skill Shoot</span></h1>
@@ -220,7 +220,7 @@ const page = () => {
       <section className='mt-12 md:mt-20 w-full md:w-11/12 mx-auto'>
         <div className="bg-[#F2E7DB] rounded-xl flex flex-col md:flex-row justify-around items-center gap-5 w-11/12 mx-auto relative py-16">
           <div className='absolute left-0 top-0 md:left-0 md:top-0'>
-            <img src="/victorCirclelc.png" className="w-16" />
+            <img src="/victorCircleLC.png" className="w-16" />
           </div>
           <div className='absolute right-[-4%] bottom-[30%] md:right-[44%] md:bottom-[-5%]'>
             <img src="/squarBox2.png" className="w-12" />
@@ -395,10 +395,10 @@ const page = () => {
           <h1 className='text-center text-2xl md:text-4xl text-black font-semibold pt-20'>What do they <span className='text-[#CB8461]'>say?</span></h1>
           <p className='mt-4 mb-6 px-4 md:px-72 text-center text-sm md:text-lg text-gray-600 leading-8'>This is an honest review from members who have joined us</p>
           <div className='relative mb-16'>
-            <div className='absolute left-[42%] top-[100%] md:left-[45%] md:top-[102%] bg-base-100 rounded-full hover:bg-[#CB8461] z-50 cursor-pointer'>
+            <div className='absolute left-[40%] top-[100%] md:left-[45%] md:top-[102%] bg-base-100 rounded-full hover:bg-[#CB8461] z-50 cursor-pointer'>
               <img src="/arrow.png" className="w-8 md:w-12" />
             </div>
-            <div className='absolute right-[42%] top-[100%] md:right-[46%] md:top-[102%] bg-base-100 rounded-full hover:bg-[#CB8461] z-50 rotate-180 cursor-pointer'>
+            <div className='absolute right-[40%] top-[100%] md:right-[46%] md:top-[102%] bg-base-100 rounded-full hover:bg-[#CB8461] z-50 rotate-180 cursor-pointer'>
               <img src="/arrow.png" className="w-8 md:w-12" />
             </div>
             <Testimoni></Testimoni>

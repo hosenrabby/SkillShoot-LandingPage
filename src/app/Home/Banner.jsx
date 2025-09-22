@@ -10,7 +10,7 @@ const Banner = () => {
             <div className="bg-[#286054] -mt-22 min-h-[700px] pb-10 md:pb-0">
                 <div className=" flex md:flex-row justify-between gap-5 pt-30 w-10/12 mx-auto relative">
                     <div className='absolute right-[10%] top-[32%] md:left-[15%] md:top-[30%]'>
-                        <img src="/bannerUnderline.png" className="w-36" />
+                        <img src="/BannerUnderline.png" className="w-36" />
                     </div>
                     <div className='absolute hidden md:block right-[25%] top-[60%]'>
                         <img src="/bannerCard.png" className="" />
@@ -22,7 +22,7 @@ const Banner = () => {
                         <img src="/bannerPlayBtn.png" className="w-12 md:w-16" />
                     </div>
                     <div className="absolute left-[4%] bottom-[4%] md:left-auto md:right-[2%] md:top-[81%]">
-                        <img src="/bannerclnder.png" className="w-12 md:w-16" />
+                        <img src="/bannerClnder.png" className="w-12 md:w-16" />
                     </div>
 
 
@@ -53,7 +53,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className='mt-10 w-4/12 ms-auto hidden md:block'>
-                        <Image src="/bannerImgRight.png" className="" width={500} height={500} />
+                        <Image src="/bannerImgRight.png" alt='heroImage' width={500} height={500} />
                     </div>
                 </div>
             </div>
